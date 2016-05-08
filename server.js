@@ -91,8 +91,8 @@ app.get('/latest/', function(req, res) {
 });
 
 
-app.listen(process.env.port || 8080, function callback() {
-    if (process.env.port) {
+app.listen(process.env.PORT || 8080, function callback() {
+    if (process.env.PORT) {
         console.log('Listening on port' + process.env.port);
     }
     else {
