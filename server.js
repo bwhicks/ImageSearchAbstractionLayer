@@ -1,6 +1,6 @@
-//Env file handling for C9
-var env = require('node-env-file');
-env(__dirname + '/.env');
+//Env file handling for C9, commented out for Heroku deployment
+//var env = require('node-env-file');
+//env(__dirname + '/.env');
 
 //Get Date time handler
 var strftime = require('strftime');
