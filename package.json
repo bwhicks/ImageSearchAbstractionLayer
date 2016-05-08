@@ -1,0 +1,18 @@
+{
+  "name": "bing-ial",
+  "version": "0.0.1",
+  "description": "Test image abstraction layer for Bing Search API",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Ben Hicks",
+  "license": "ISC",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.15",
+    "node-bing-api": "^2.4.1",
+    "strftime": "^0.9.2"
+  }
+}
